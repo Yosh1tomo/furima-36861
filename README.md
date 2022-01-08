@@ -56,9 +56,9 @@
 | prefecture_id   | integer    | null: false                    |
 | city            | string     | null: false                    |
 | addresses       | string     | null: false                    |
-| building        | string     | null: true                     |
-| phone_unmber    | integer    | null: true                     |
-| oeder            | references | null: false, foreign_key: true |
+| building        | string     |                                |
+| phone_number    | string     | null: false                    |
+| order          | references | null: false, foreign_key: true |
 
 ### Association
 
